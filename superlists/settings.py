@@ -25,7 +25,7 @@ SECRET_KEY = 'x+s^i9en_u+n(yyr=2gxj1mupec$_wf)(uvdg8j3r9kvr@-rm&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['loctvsuperlists.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
