@@ -20,3 +20,4 @@ tests/.coverage
 build/
 tests/report/
 staticfiles/
+/.python-version
