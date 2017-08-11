@@ -10,6 +10,7 @@ class List(models.Model):
 
 
 class Item(models.Model):
-    text = models.TextField(blank=False, null=False)
+    text = models.TextField(blank=False)
     list = models.ForeignKey(List, default=None, blank=True, null=True)
+
 
