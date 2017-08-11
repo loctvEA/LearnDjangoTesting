@@ -3,6 +3,7 @@ from unittest.case import skip
 from django.test import TestCase
 
 from lists.forms import ItemForm, EMPTY_LIST_ERROR
+from lists.models import List, Item
 
 
 class ItemFormTest(TestCase):
@@ -21,3 +22,8 @@ class ItemFormTest(TestCase):
         form = ItemForm(data={'text': ''})
         self.assertFalse(form.is_valid())
         self.assertEqual(form.errors['text'], [EMPTY_LIST_ERROR])
+
+
+
+
+
